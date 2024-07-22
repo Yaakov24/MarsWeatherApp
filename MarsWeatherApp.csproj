@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>0864ca1f-395a-499b-8fc4-793e34039f78</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="Pages\Shared\BF75C159-5472-46EF-ADE5-CE37A3585349.jpeg" />
+	  <Content Include="Pages\Shared\wwwroot\css\site.css" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+</Project>
